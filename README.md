@@ -39,7 +39,7 @@ cd movie-discovery-app
 npm install
 ```
 
-3. Obtain a TMDB API key by signing up at <a href="https://developer.themoviedb.org/docs">TMDB API</a> and replace `'API_KEY'` in `App.js` and `MovieDetails.js` with your API key.
+3. Obtain a TMDB API key by signing up at <a href="https://developer.themoviedb.org/docs">TMDB API</a> and replace `'apiKey'` in `App.js` and `MovieDetails.js` with your API key.
 
 4. Start the development server:
 ```
@@ -66,3 +66,21 @@ The application fetches movie data from the TMDB API using Axios. API endpoints 
         height="600"
         />
 </h1>
+
+<!-- ## Contributing
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+```
+git checkout -b feature-name
+```
+3. Make your changes and commit them:
+```
+git commit -m "Your commit message"
+```
+4. Push your changes to your fork:
+```
+git push origin feature-name
+```
+5. Create a pull request from your fork to the main repository. -->
