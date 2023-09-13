@@ -103,11 +103,11 @@ useEffect(() => {
     <Container>
       <Header>
         <AppName href="/home">
-          <MovieImage src="/movie-icon.svg" />
+          <MovieImage src="/movie-icon.svg" alt="movie-icon"/>
           Movie Discovery App
         </AppName>
         <SearchBox>
-          <SearchIcon src="/search-icon.svg" />
+          <SearchIcon src="/search-icon.svg" alt="search-icon"/>
           <SearchInput
             placeholder="Movie Search"
             onChange={onTextChange}
